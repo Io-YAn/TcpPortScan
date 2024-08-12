@@ -5,26 +5,26 @@
     - Compile the project to generate the executable or use the pre-built executable.
 2. Command Line Usage:
 ```
-PortScanner.exe <target>
+TcpPortScan.exe <target>
 ```
 
 ### Examples:
 Scan a single IP address for all ports:
 ```
-PortScanner.exe 127.0.0.1
+TcpPortScan.exe 127.0.0.1
 ```
 
 Scan a single IP address for specific ports:
 ```
-PortScanner.exe 127.0.0.1 80,443
+TcpPortScan.exe 127.0.0.1 80,443
 ```
 
 Scan multiple IP addresses for all ports:
 ```
-PortScanner.exe 192.168.1.1-3
+TcpPortScan.exe 192.168.1.1-3
 ```
 
 Display help information:
 ```
-PortScanner.exe -h
+TcpPortScan.exe -h
 ```
